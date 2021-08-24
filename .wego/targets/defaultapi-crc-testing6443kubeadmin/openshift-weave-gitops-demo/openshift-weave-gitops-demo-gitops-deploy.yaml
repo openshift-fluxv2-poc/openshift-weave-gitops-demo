@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: openshift-weave-gitops-demo
+  namespace: wego-system
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/openshift-fluxv2-poc/openshift-weave-gitops-demo.git
+
