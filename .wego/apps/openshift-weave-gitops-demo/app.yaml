@@ -1,0 +1,14 @@
+---
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  labels:
+    wego.weave.works/app-identifier: wego-f28b8a4dfaf86966478add05f9254e24
+  name: openshift-weave-gitops-demo
+  namespace: wego-system
+spec:
+  branch: main
+  deployment_type: kustomize
+  path: ./
+  source_type: git
+  url: ssh://git@github.com/openshift-fluxv2-poc/openshift-weave-gitops-demo.git
