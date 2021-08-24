@@ -5,7 +5,7 @@
 Problem statement
 -->
 
-Developers want to try Kubernetes for many reasons. The problem is they are usually taken aback because of its complexity. So, what if we told you that with Weave GitOps you could spin up an Openshift cluster that is already GitOpsified? What if we told you you could do it in only two commands? And, finally, what if we told you that having the GitOps runtime installed in the cluster will allow you to manage everything – we mean EVERYTHING – from Git. Workloads, config and even infra is just a Pull Request from getting its new features. In this guide we will describe how the Weave GitOps installation works so that you can deliver your applications to an Openshift cluster fast. 
+Developers want to try Kubernetes for many reasons. The problem is they are usually taken aback because of its complexity. So, what if we told you that with Weave GitOps you could GitOpsify your applications on an Openshift cluster? What if we told you you could do it in only two commands? And, finally, what if we told you that having the GitOps runtime installed in the cluster will allow you to manage everything – we mean EVERYTHING – from Git. Workloads, config and even infra is just a Pull Request from getting its new features. In this guide we will describe how the Weave GitOps installation works so that you can deliver your applications to an Openshift cluster fast. 
 
 <!-- 
 Solution
